@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Stack: TypeScript, JavaScript, Python, Go, PHP, Node.js, Vue 3, React, MongoDB, PostgreSQL, Redis, RabbitMQ, Kafka, Docker, Kubernetes, Keycloak, Terraform, GitLab CI, security, AI agents">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" fill-opacity="0.28"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', Menlo, Consolas, monospace; white-space: pre; font-size: 13.5px; }
+    .p { fill: #FF00FF; } .c { fill: #E5E7EB; } .d { fill: #6B7280; }
+    .k { fill: #00FFFF; } .s { fill: #00FF41; } .b { fill: #9CA3AF; } .n { fill: #4B5563; }
+    .title { font-size: 12px; fill: #9CA3AF; }
+    .row { opacity: 0; animation: in 0.2s ease-out forwards; }
+    @keyframes in { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .row { animation: none; opacity: 1; } }
+  </style>
+
+  <rect width="900" height="260" rx="10" fill="#0D0D0D"/>
+  <rect width="900" height="32" rx="10" fill="#161B22"/>
+  <rect y="22" width="900" height="10" fill="#161B22"/>
+  <circle cx="22" cy="16" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="16" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="16" r="6" fill="#27C93F"/>
+  <text x="450" y="20" text-anchor="middle" class="title">aziz@prod: ~ stack.yml</text>
+
+  <text x="32" y="62"><tspan class="p">$ </tspan><tspan class="c">cat stack.yml</tspan></text>
+
+  <text x="32" y="92" class="row" style="animation-delay:.2s"><tspan class="n"> 1 </tspan><tspan class="k">languages</tspan><tspan class="b">: [</tspan><tspan class="s">typescript, javascript, python, go, php, sql</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="114" class="row" style="animation-delay:.3s"><tspan class="n"> 2 </tspan><tspan class="k">backend  </tspan><tspan class="b">: [</tspan><tspan class="s">node.js, express, flask, django, symfony</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="136" class="row" style="animation-delay:.4s"><tspan class="n"> 3 </tspan><tspan class="k">frontend </tspan><tspan class="b">: [</tspan><tspan class="s">vue3, quasar, react, next.js, react-native</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="158" class="row" style="animation-delay:.5s"><tspan class="n"> 4 </tspan><tspan class="k">data     </tspan><tspan class="b">: [</tspan><tspan class="s">mongodb, postgresql, redis, rabbitmq, kafka, elasticsearch</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="180" class="row" style="animation-delay:.6s"><tspan class="n"> 5 </tspan><tspan class="k">platform </tspan><tspan class="b">: [</tspan><tspan class="s">docker, kubernetes, harbor, kong, keycloak, terraform, gitlab-ci</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="202" class="row" style="animation-delay:.7s"><tspan class="n"> 6 </tspan><tspan class="k">security </tspan><tspan class="b">: [</tspan><tspan class="s">pentest, code-audit, reverse-engineering, hardening, devsecops</tspan><tspan class="b">]</tspan></text>
+  <text x="32" y="224" class="row" style="animation-delay:.8s"><tspan class="n"> 7 </tspan><tspan class="k">ai       </tspan><tspan class="b">: [</tspan><tspan class="s">claude-code, multi-agent, litellm, langfuse</tspan><tspan class="b">]</tspan></text>
+
+  <rect width="900" height="260" rx="10" fill="url(#scan)" pointer-events="none"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="9.5" fill="none" stroke="#1F2937"/>
+</svg>

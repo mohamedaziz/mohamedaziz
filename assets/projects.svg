@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="250" viewBox="0 0 900 250" role="img" aria-label="Projects: agent-standup (public), lead-tech agentic system, Claude Code toolkit, homelab (private, in progress), TAIPAN and ADAPA (2019 to 2023)">
+  <defs>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" fill-opacity="0.28"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', Menlo, Consolas, monospace; white-space: pre; font-size: 13.5px; }
+    .p { fill: #FF00FF; } .c { fill: #E5E7EB; } .o { fill: #00FF41; } .d { fill: #6B7280; } .y { fill: #00FFFF; } .w { fill: #FFBD2E; }
+    .title { font-size: 12px; fill: #9CA3AF; }
+    .row { opacity: 0; animation: in 0.2s ease-out forwards; }
+    @keyframes in { from { opacity: 0; } to { opacity: 1; } }
+    .sel { fill: #00FFFF; fill-opacity: 0.07; animation: sweep 9s steps(1) 1.5s infinite; }
+    @keyframes sweep {
+      0% { transform: translateY(0); } 16.6% { transform: translateY(24px); } 33.3% { transform: translateY(48px); }
+      50% { transform: translateY(72px); } 66.6% { transform: translateY(96px); } 83.3% { transform: translateY(120px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .row { animation: none; opacity: 1; }
+      .sel { display: none; }
+    }
+  </style>
+
+  <rect width="900" height="250" rx="10" fill="#0D0D0D"/>
+  <rect width="900" height="32" rx="10" fill="#161B22"/>
+  <rect y="22" width="900" height="10" fill="#161B22"/>
+  <circle cx="22" cy="16" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="16" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="16" r="6" fill="#27C93F"/>
+  <text x="450" y="20" text-anchor="middle" class="title">aziz@prod: ~/projects</text>
+
+  <text x="32" y="62"><tspan class="p">$ </tspan><tspan class="c">ls -l ~/projects</tspan></text>
+
+  <rect x="24" y="77" width="852" height="22" rx="3" class="sel"/>
+
+  <text x="32" y="93" class="row" style="animation-delay:.2s"><tspan class="o">drwxr-xr-x</tspan>  <tspan class="y">agent-standup     </tspan><tspan class="c">your AI coding agents as a live, animated team call  </tspan><tspan class="o">[public]</tspan></text>
+  <text x="32" y="117" class="row" style="animation-delay:.3s"><tspan class="p">drwx------</tspan>  <tspan class="y">lead-tech-agents  </tspan><tspan class="c">self-hosted multi-agent system, phone-driven         </tspan><tspan class="w">[private · wip]</tspan></text>
+  <text x="32" y="141" class="row" style="animation-delay:.4s"><tspan class="p">drwx------</tspan>  <tspan class="y">claude-toolkit    </tspan><tspan class="c">skills, agents and plugins catalog with a gatekeeper </tspan><tspan class="w">[private · wip]</tspan></text>
+  <text x="32" y="165" class="row" style="animation-delay:.5s"><tspan class="p">drwx------</tspan>  <tspan class="y">homelab           </tspan><tspan class="c">cloud-free lab: home automation, ESP32, local AI     </tspan><tspan class="w">[private · wip]</tspan></text>
+  <text x="32" y="189" class="row" style="animation-delay:.6s"><tspan class="d">dr-x------</tspan>  <tspan class="y">taipan            </tspan><tspan class="c">plug-and-play penetration-testing appliance          </tspan><tspan class="d">[2019-2023]</tspan></text>
+  <text x="32" y="213" class="row" style="animation-delay:.7s"><tspan class="d">dr-x------</tspan>  <tspan class="y">adapa             </tspan><tspan class="c">AI data-analysis and reputation-scoring platform     </tspan><tspan class="d">[2019-2023]</tspan></text>
+
+  <rect width="900" height="250" rx="10" fill="url(#scan)" pointer-events="none"/>
+  <rect x="0.5" y="0.5" width="899" height="249" rx="9.5" fill="none" stroke="#1F2937"/>
+</svg>
