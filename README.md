@@ -33,6 +33,8 @@ rm: cannot remove '/legacy': Device or resource busy (it still bills customers)
 hint: write the tests first, then migrate. expand, then contract.
 ```
 
+<sub>need someone who migrates legacy without breaking prod? <a href="mailto:mohamedazizbenrejeb@gmail.com?subject=sudo%20rm%20-rf%20%2Flegacy"><code>mail -s "sudo rm -rf /legacy"</code></a></sub>
+
 </details>
 
 <details>
@@ -48,6 +50,8 @@ hint: write the tests first, then migrate. expand, then contract.
                 ||----w |
                 ||     ||
 ```
+
+<sub>the cow also ships CVs: <a href="https://github.com/mohamedaziz/mohamedaziz/releases/download/cv/Mohamed_Aziz_Ben_Rejeb_CV.pdf"><code>wget cv.pdf</code></a></sub>
 
 </details>
 
@@ -78,6 +82,12 @@ SEE ALSO
 <sub><a href="plain/README.md">plain(1)</a></sub>
 
 </details>
+
+<sub><code>3 easter eggs above, 1 more in <b>cat README.md --raw</b>. found them all?</code></sub>
+
+<!--
+  $ echo eW91IGZvdW5kIGl0LiBtYWlsIG1vaGFtZWRheml6YmVucmVqZWJAZ21haWwuY29tIHdpdGggc3ViamVjdCAweEMwRkZFRQ== | base64 -d
+-->
 
 <img src="assets/metrics.svg" alt="GitHub metrics" width="100%">
 
