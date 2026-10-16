@@ -14,11 +14,15 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: assets/metrics.svg
           template: classic
-          base: header, activity, community, repositories
+          base: activity
           config_timezone: Europe/Paris
-          config_twemoji: yes
+          config_display: large
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_details: percentage
-          plugin_languages_limit: 8
+          extras_css: |
+            svg { color: #E5E7EB; font-family: 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+            .items-wrapper { background: #0D0D0D; border: 1px solid #1F2937; border-radius: 10px; padding: 12px 16px 16px; }
+            .items-wrapper::before { content: "$ gh stats --user mohamedaziz"; display: block; color: #FF00FF; margin: 0 0 6px 5px; }
+            h1, h2, h3 { color: #00FFFF; }
+            .field svg { fill: #FF00FF; }
+            .calendar .day { outline-color: rgba(255, 255, 255, .04); }
