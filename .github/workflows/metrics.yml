@@ -14,7 +14,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: assets/metrics.svg
           template: classic
-          base: activity
+          base: ""
           config_timezone: Europe/Paris
           config_display: large
           plugin_isocalendar: yes
@@ -26,3 +26,4 @@ jobs:
             h1, h2, h3 { color: #00FFFF; }
             .field svg { fill: #FF00FF; }
             .calendar .day { outline-color: rgba(255, 255, 255, .04); }
+            [fill="#ebedf0"] { fill: #161B22; }
