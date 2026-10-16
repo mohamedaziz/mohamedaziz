@@ -1,0 +1,20 @@
+name: CV
+on:
+  push: { branches: [main], paths: [cv.yaml] }
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    permissions: { contents: write }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install "rendercv[full]==2.8"
+      - run: rendercv render cv.yaml
+      - name: Publish PDF to the "cv" release
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          gh release view cv >/dev/null 2>&1 || gh release create cv --title "CV" --notes "Latest CV, rebuilt from cv.yaml on every change."
+          gh release upload cv rendercv_output/Mohamed_Aziz_Ben_Rejeb_CV.pdf --clobber

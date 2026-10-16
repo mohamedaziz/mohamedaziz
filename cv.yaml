@@ -1,0 +1,129 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
+cv:
+  name: Mohamed Aziz Ben Rejeb
+  headline: Lead Developer · Senior Software Engineer
+  location: Île-de-France, France
+  email: mohamedazizbenrejeb@gmail.com
+  social_networks:
+    - network: LinkedIn
+      username: mohamed-aziz-ben-rejeb
+    - network: GitHub
+      username: mohamedaziz
+  sections:
+    summary:
+      - >-
+        Lead developer who owns the hard parts: platform foundations, critical features and the technical
+        decisions that shape a product. Designs and ships distributed systems end to end (microservices,
+        message-driven workflows, auth, CI/CD, Kubernetes on bare metal) with security built in from the
+        first line. Bridges product and engineering: turns business requests into feasible, sized plans,
+        arbitrates urgencies, and leads in-house teams and external contractors to delivery.
+
+    experience:
+      - company: Hubency
+        position: Lead Developer
+        start_date: 2023
+        end_date: present
+        summary: Waste-management services integrator. Technical lead of the in-house ERP.
+        highlights:
+          - Lead the company's ERP, a **TypeScript/Node.js microservices monorepo** (REST API, client extranet API, gateway, auth service, workers) with two Vue 3/Quasar front-ends.
+          - Co-designed the initial **microservices architecture** (API, auth, orchestrator, mailer, PDF and notification services) and co-led its **consolidation into a monorepo**, and provisioned the AWS infrastructure with Terraform.
+          - Own the **platform foundations**, including shared schema, DTO and contract libraries, RabbitMQ workflow orchestration (PDF, mail and crawler workers with dead-letter queues), MongoDB migrations and Keycloak-based authentication.
+          - Take on the **hardest features end to end**, such as pricing resolution, order and intervention lifecycles, and billing flows.
+          - Make the **architecture and technical decisions**, and partner with Product Owners to assess feasibility, size requests and shape specifications before build.
+          - **Arbitrate production urgencies** against the roadmap and keep delivery on track.
+          - **Coordinate external contractors** on ongoing projects, covering scoping, code review and delivery quality.
+          - Top contributor to the codebase (**969 of 1,743 non-merge commits, ~56%**), and drive **AI-assisted engineering** (Claude Code agents, automated review and specification workflows).
+          - '*Stack:* TypeScript, Node.js, Express, MongoDB/Mongoose, Redis, RabbitMQ, Keycloak, AWS S3, Vue 3, Quasar, Turborepo, Jest, Docker, GitLab CI.'
+
+      - company: Haydar Technologies
+        position: Lead Developer
+        start_date: 2019
+        end_date: 2023
+        highlights:
+          - Led a **team of ten engineers** in Scrum; split work, assigned tasks, ran code reviews and mentored engineers on their career paths.
+          - "**TAIPAN**, a plug-and-play pentest appliance: designed the whole infrastructure, built the Flask core, the attack engines and the licence back office, ran GitLab CI/CD and Harbor on bare metal, and owned an outsourced version migration from specifications to acceptance."
+          - "**ADAPA**, an AI reputation-scoring platform: wrote the SRS and designed the microservices, broker and workers architecture. Built the task orchestrator, a Python RabbitMQ library, Keycloak and Kong auth, and a bare-metal Kubernetes cluster."
+          - "**Volkswagen d3 GUI**, data distribution to connected vehicles: designed the microservices architecture, built the full GraphQL API and the React foundations, secured server-to-server auth over ZeroMQ and the Kubernetes clusters, and rewrote a reverse-engineered module in Go."
+          - "Also delivered an end-to-end encrypted chat prototype (React Native, Socket.IO) and the tender response and design of a smart-meter pay-as-you-go platform."
+          - '*Stack:* Python, JavaScript, Go, Shell, Flask, Node.js, React, GraphQL, MongoDB, PostgreSQL, Redis, RabbitMQ, Keycloak, Kong, Docker, Kubernetes, Harbor, Terraform, Ansible, Grafana, Prometheus, Metasploit, Nuclei, SQLMap.'
+
+      - company: Atayen
+        position: Full-Stack Developer
+        start_date: 2016
+        end_date: 2019
+        highlights:
+          - Coordinated a team of ten with direct client contact; split work and assigned tasks.
+          - "**SaTT-Token wallet**: designed the solution and its infrastructure; built the full REST API (Symfony, Node.js) and the core features (accounts, wallets, contacts, referral, SaTT/BTC transfers)."
+          - "**3xchange** crypto trading platform: built authentication, MetaMask integration and exchange on the 0x protocol with web3.js, plus the client and transaction back office."
+          - "**Iframe-apps** social CRM: stabilised the legacy system, built a mail worker sending ~10K emails/hour, email tracking and Elasticsearch search, and hardened the servers against injection, brute force and DDoS."
+          - '*Stack:* PHP, JavaScript, Solidity, Symfony, Node.js, AngularJS, MongoDB, MySQL, Elasticsearch, Web3.'
+
+      - company: Freelance
+        position: Technical Consultant & Developer
+        start_date: 2014
+        end_date: 2022
+        highlights:
+          - "**Boxstage**: technical consultant; wrote the SRS, set up the infrastructure, supported the POC, and tested and fixed the GDPR-compliance app Bureau-rgpd (including a subcontracting-processing feature)."
+          - "**Soomville** jobbing platform: HTML/CSS integration and every web interface in AngularJS; Laravel API fixes."
+          - "**Continental Tours**: designed and built a case-management app for a travel agency covering requests, finance, statistics and archives (Symfony 4)."
+          - "**Wanderer Guide**: low-cost hiking-travel platform with advanced search, bookings, payments and reviews (Symfony 3); started as the engineering final-year project at One Solution."
+
+    projects:
+      - name: '[agent-standup](https://github.com/mohamedaziz/agent-standup)'
+        summary: Claude Code, Codex and Mistral Vibe sessions shown as a live, animated team call, showing who is working, who waits on whom and who needs you. VS Code extension, terminal command and desktop app. Runs locally, zero tokens.
+      - name: Lead-tech agentic system (private, in progress)
+        summary: Self-hosted multi-agent system that takes over a tech lead's operational work (tickets, merge requests, time tracking, mail), steered from a phone by text or voice. Model-agnostic through LiteLLM, traced and evaluated with Langfuse, built on Hermes Agent. All data stays local.
+      - name: Claude Code toolkit (private, in progress)
+        summary: Catalog of skills, agents and plugins with a gatekeeper (spec writing, review and delivery workflows), including a plugin that designs and verifies 3D-printable parts.
+
+    education:
+      - institution: ESPRIT
+        area: Computer Engineering
+        degree: MEng
+        location: Tunis
+        start_date: 2013
+        end_date: 2016
+      - institution: ISET CH
+        area: Computer Systems Development
+        degree: BSc
+        location: Tunis
+        start_date: 2010
+        end_date: 2013
+
+    skills:
+      - label: Languages
+        details: TypeScript, JavaScript, Python, Go, PHP, Shell, SQL, GraphQL
+      - label: Frameworks
+        details: Node.js, Express, Flask, Django, Symfony, Laravel, Vue 3, Quasar, React, Next.js, React Native, AngularJS
+      - label: Data & messaging
+        details: MongoDB, PostgreSQL, MySQL/MariaDB, Redis, RabbitMQ, Kafka, Elasticsearch
+      - label: Platform & DevOps
+        details: Docker, Kubernetes, Rancher, Harbor, Kong, Keycloak, GitLab CI/CD, Terraform, Ansible, Grafana, Prometheus
+      - label: Security
+        details: Application pentesting, reverse engineering, code audit, secure coding, infrastructure hardening, remediation plans, DevSecOps
+      - label: Methods
+        details: Agile (Scrum, Kanban), TDD, AI-assisted development
+      - label: Languages spoken
+        details: Arabic (native), French (bilingual), English (fluent)
+
+design:
+  theme: classic
+  typography:
+    font_family: IBM Plex Sans
+    font_size:
+      body: 9.3pt
+  page:
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.6in
+    right_margin: 0.6in
+  colors:
+    body: rgb(15, 23, 42)
+    name: rgb(15, 23, 42)
+    headline: rgb(21, 128, 61)
+    connections: rgb(51, 65, 85)
+    section_titles: rgb(15, 23, 42)
+    links: rgb(21, 128, 61)
+  templates:
+    date_range: START_DATE - END_DATE
+    footer: '*NAME · PAGE_NUMBER/TOTAL_PAGES*'
