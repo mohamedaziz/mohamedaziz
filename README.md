@@ -16,12 +16,72 @@
 - legacy without tests
 ```
 
+<img src="assets/gitlog.svg" alt="git log --graph career: ISET CH 2013, ESPRIT 2016, Atayen 2016, freelance 2014 to 2022, Haydar 2019, Hubency 2023" width="100%">
+
 <img src="assets/projects.svg" alt="ls -l ~/projects: agent-standup, lead-tech agentic system, Claude Code toolkit, homelab, TAIPAN, ADAPA" width="100%">
 
 <p align="center"><sub><code>cd</code> <a href="https://github.com/mohamedaziz/agent-standup"><b>agent-standup</b></a> · the rest is <code>chmod 700</code> for now</sub></p>
 
 <img src="assets/stack.svg" alt="cat stack.yml" width="100%">
 
+<details>
+<summary><code>$ sudo rm -rf /legacy</code></summary>
+
+```console
+[sudo] password for aziz: ********
+rm: cannot remove '/legacy': Device or resource busy (it still bills customers)
+hint: write the tests first, then migrate. expand, then contract.
+```
+
+</details>
+
+<details>
+<summary><code>$ fortune | cowsay</code></summary>
+
+```
+ __________________________________
+< it works on my cluster. ship it. >
+ ----------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+</details>
+
+<details>
+<summary><code>$ man aziz</code></summary>
+
+```
+AZIZ(1)                       User Commands                       AZIZ(1)
+
+NAME
+       aziz - lead developer, platform foundations and hard features
+
+SYNOPSIS
+       aziz [--architecture] [--security] [--deliver] <problem>
+
+DESCRIPTION
+       Takes a fuzzy business request, returns a sized plan and a running
+       system. Prefers boring tech, small diffs and tests that fail first.
+
+EXIT STATUS
+       0      shipped
+       1      blocked on a decision that is yours to make
+
+SEE ALSO
+       plain(1), for readers who prefer a suit and tie
+```
+
+<sub><a href="plain/README.md">plain(1)</a></sub>
+
+</details>
+
 <img src="assets/metrics.svg" alt="GitHub metrics" width="100%">
 
+<img src="assets/exit.svg" alt="$ exit" width="100%">
+
 <sub><code>$ crontab -l</code> metrics refreshed daily by <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> · CV compiled from <a href="cv.yaml"><code>cv.yaml</code></a> by <a href="https://github.com/rendercv/rendercv">RenderCV</a></sub>
+<p align="right"><a href="plain/README.md" title="EOF: plain mode"><sub><code>^D</code></sub></a></p>
