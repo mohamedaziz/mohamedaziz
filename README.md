@@ -20,7 +20,7 @@
 
 <img src="assets/projects.svg" alt="ls -l ~/projects: agent-standup, lead-tech agentic system, Claude Code toolkit, homelab, TAIPAN, ADAPA" width="100%">
 
-<p align="center"><sub><code>cd</code> <a href="https://github.com/mohamedaziz/agent-standup"><b>agent-standup</b></a> · the rest is <code>chmod 700</code> for now</sub></p>
+<p align="center"><sub><code>cd</code> <a href="https://github.com/mohamedaziz/agent-standup"><b>agent-standup</b></a> · <code>cd</code> <a href="https://github.com/mohamedaziz/otto"><b>otto</b></a> · the rest is <code>chmod 700</code> for now</sub></p>
 
 <img src="assets/stack.svg" alt="cat stack.yml" width="100%">
 
